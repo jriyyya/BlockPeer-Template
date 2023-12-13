@@ -43,8 +43,11 @@ const Navbar = () => {
       >
         <div className="container">
           <nav className="flex items-center">
-            <Link href="/">
+            <Link href="/" className='flex items-center gap-x-4'>
              <Image width={50} height={50} src={logo} alt='logo'/>
+             <div className='text-3xl font-bold text-blue-900 mt-2 tracking-tight'>
+              Blockpeer-Tech
+              </div>
             </Link>
             <div className="lg:block hidden ms-auto">
               <Link href="/about">About Us</Link>
