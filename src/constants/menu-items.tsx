@@ -73,7 +73,7 @@ const MENU_ITEMS: MenuItemTypes[] = [
       {
         key: 'sass-modern',
         label: 'Sass Modern',
-        url: '/landing/sass-modern',
+        url: '/',
         parentKey: 'landing',
       },
       {
@@ -233,7 +233,7 @@ const HORIZONTAL_MENU_ITEMS: MenuItemTypes[] = [
   {
     key: 'home',
     label: 'Home',
-    url: '/',
+    url: '/home',
     isTitle: true,
   },
   {

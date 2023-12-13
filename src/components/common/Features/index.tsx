@@ -47,7 +47,7 @@ const Features = () => {
             </div>
           </div>
 
-          <div>
+          {/* <div>
             <div className="grid lg:grid-cols-2 grid-cols-1n gap-6 items-center">
               <div
                 className="order-2 lg:order-1 2xl:w-9/12"
@@ -123,15 +123,16 @@ const Features = () => {
                 />
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
 
-      <div className="xl:py-24 py-16">
+      <div className="xl:py-16 py-16">
         <div className="container" data-aos="fade-up" data-aos-duration="600">
           <div className="text-center">
             <h1 className="text-2xl font-medium">
-              Any many more powerful features
+              
+Unlock a World of Powerful Features with BlockPeer Tech
             </h1>
           </div>
 
@@ -141,11 +142,11 @@ const Features = () => {
                 <div className="flex flex-col gap-5">
                   <p className="flex items-center gap-3">
                     {checkIcon}
-                    Hire and Retain Top Talent
+                    Blockchain Innovation
                   </p>
                   <p className="flex items-center gap-3">
                     {checkIcon}
-                    Team Management
+                    AI Empowerment
                   </p>
                 </div>
               </div>
@@ -154,15 +155,15 @@ const Features = () => {
                 <div className="flex flex-col gap-5">
                   <p className="flex items-center gap-3">
                     {checkIcon}
-                    Stay Compliant
+                    Compliance Mastery
                   </p>
                   <p className="flex items-center gap-3">
                     {checkIcon}
-                    Improve Productivity
-                  </p>
+                    Decentralized Applications
+                    </p>
                   <p className="flex items-center gap-3">
                     {checkIcon}
-                    Improve Experience
+                    Data-Driven Insights
                   </p>
                 </div>
               </div>
@@ -171,15 +172,15 @@ const Features = () => {
                 <div className="flex flex-col gap-5">
                   <p className="flex items-center gap-3">
                     {checkIcon}
-                    Self-service Time Tracking
+                    Smart Contracts
                   </p>
                   <p className="flex items-center gap-3">
                     {checkIcon}
-                    Performance Management
+                    Financial Compliance
                   </p>
                   <p className="flex items-center gap-3">
                     {checkIcon}
-                    Expert HR
+                    User-Focused Experiences
                   </p>
                 </div>
               </div>
@@ -188,11 +189,11 @@ const Features = () => {
                 <div className="flex flex-col gap-5">
                   <p className="flex items-center gap-3">
                     {checkIcon}
-                    New Hire Checklist
+                    Secure Decentralization
                   </p>
                   <p className="flex items-center gap-3">
                     {checkIcon}
-                    Tax Calculator
+                    AI-Driven Finance Strategies
                   </p>
                 </div>
               </div>

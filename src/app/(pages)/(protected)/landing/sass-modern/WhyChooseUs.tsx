@@ -1,11 +1,11 @@
 // types
 import Image from 'next/image'
-import { Feature } from './types'
+import { Feature } from '../coworking/types'
 
 //image
 import whiteWave from '@/assets/images/shapes/white-wave.svg'
 
-const Features = ({ features }: { features: Feature[] }) => {
+const WhyChooseUs = ({ features }: { features: Feature[] }) => {
   return (
     <section className="py-20 bg-primary/10 relative" data-aos="fade-up">
       <div className="absolute top-0 inset-x-0 hidden sm:block">
@@ -13,9 +13,9 @@ const Features = ({ features }: { features: Feature[] }) => {
       </div>
       <div className="container relative">
         <div className="text-center">
-          <span className="text-sm font-medium py-1 px-3 rounded-full text-primary bg-primary/10">
+          {/* <span className="text-sm font-medium py-1 px-3 rounded-full text-primary bg-primary/10">
             Features
-          </span>
+          </span> */}
           <h2 className="md:text-3xl text-xl font-semibold my-5">
             Why Choose Us
           </h2>
@@ -45,4 +45,4 @@ const Features = ({ features }: { features: Feature[] }) => {
   )
 }
 
-export default Features
+export default WhyChooseUs

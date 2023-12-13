@@ -1,7 +1,7 @@
 import { Metadata } from 'next'
 import Hero from './Hero'
 import About from './About'
-import Features from './Features'
+import Features from '../sass-modern/WhyChooseUs'
 import SpaceOptions from './SpaceOptions'
 import Testimonials from './Testimonials'
 import Footer from './Footer'

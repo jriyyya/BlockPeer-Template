@@ -37,7 +37,7 @@ const landings: Demo[] = [
   },
   {
     image: homeSaas,
-    url: '/landing/sass-modern',
+    url: '/ok',
     name: 'Saas Modern',
   },
   {
