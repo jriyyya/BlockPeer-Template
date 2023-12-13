@@ -9,18 +9,12 @@ const About = () => {
           </div>
           <div>
             <p className="text-sm/relaxed tracking-wider text-gray-600">
-              Temporibus autem quibusdam et aut as officiis debitis aut rerum
-              necessitatibus saepe eveniet voluptates repudiandae sint et
-              molestiae non recusandae itaque earum rerum hic tenetur a sapiente
-              delectus reiciendis.
+            Our vision is to be at the forefront of technological evolution, creating solutions that not only meet the demands of today but also anticipate the challenges of tomorrow. We envision a future where blockchain, AI, and compliance seamlessly converge to shape a new era of possibilities for businesses across industries.
             </p>
           </div>
           <div>
             <p className="text-sm/relaxed tracking-wider text-gray-600">
-              Temporibus autem quibusdam et aut as officiis debitis aut rerum
-              necessitatibus saepe eveniet ut et voluptates repudiandae sint et
-              molestiae non recusandae itaque earum rerum hic tenetur a sapiente
-              delectus reiciendis.
+            In the dynamic landscape of technology, expertise is paramount. At BlockPeer Tech, our seasoned team of professionals brings together a wealth of experience and knowledge. From designing scalable blockchain solutions to crafting intricate AI algorithms, and ensuring MLETR compliance, we thrive on mastering the complexities that define the modern digital ecosystem.
             </p>
           </div>
         </div>
@@ -29,10 +23,7 @@ const About = () => {
             <div />
             <div className="lg:col-span-2">
               <p className="text-sm/relaxed tracking-wider text-gray-600">
-                Temporibus autem quibusdam et aut as officiis debitis aut rerum
-                necessitatibus saepe eveniet voluptates repudiandae sint et
-                molestiae non recusandae itaque earum rerum hic tenetur a
-                sapiente delectus reiciendis.
+              At the core of BlockPeer Tech is a commitment to our clients. With a client-centric approach, we tailor each solution to the unique needs and goals of businesses. Your success is our success, and we take pride in being a trusted technology partner. Join us on the journey of building tomorrows technology landscape today, where innovation and excellence converge at BlockPeer Tech.
               </p>
             </div>
           </div>

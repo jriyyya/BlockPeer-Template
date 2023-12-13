@@ -6,16 +6,16 @@ const Hero = () => {
       <section className="pt-36 pb-24 relative">
         <div className="container">
           <div className="text-center">
-            <h1 className="text-3xl/tight sm:text-4xl/tight lg:text-5xl/tight font-semibold mb-5">
-              We are on a mission to&nbsp;
+            <h1 className="text-2xl/tight sm:text-4xl/tight lg:text-[2.6rem]/tight font-semibold mb-5">
+              
+Welcome to  &nbsp;
               <span className="relative z-0 after:bg-primary/30 after:-z-10 after:absolute md:after:h-6 sm:after:h-5 after:h-4 after:w-full after:bottom-0 after:end-0">
-                revolutionize
+              BlockPeer Tech
               </span>
-              &nbsp;the web
+              &nbsp;- Shaping Tomorrows Tech!
             </h1>
-            <p className="sm:text-lg text-gray-500">
-              We are a full-stack web development studio, run by people who are
-              very passionate about making the web more beautiful
+            <p className="sm:text-lg text-gray-500 px-12">
+            At BlockPeer Tech, we embark on a mission to redefine the future of software development, specializing in the revolutionary realms of blockchain, artificial intelligence, and compliance. 
             </p>
           </div>
         </div>
