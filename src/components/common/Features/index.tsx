@@ -20,12 +20,12 @@ const Features = () => {
               Features
             </span>
             <h1 className="text-3xl/tight font-medium mt-3 mb-4">
-              Better Management. Better Performance
+            Innovating Blockchain, AI, and Compliance
             </h1>
             <p className="text-gray-500">
-              Start working with <span className="text-primary"> Prompt </span>
-              to manage your workforce better
+            With unwavering commitment to innovation, we excel in three key areas shaping the digital future:
             </p>
+            
           </div>
 
           <div className="xl:pt-16 xl:pb-28 py-16">

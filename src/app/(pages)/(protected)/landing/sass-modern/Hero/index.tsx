@@ -26,15 +26,14 @@ const Hero = () => {
               <div className="order-2 lg:order-1">
                 <div className="text-center sm:text-start">
                   <h1 className="text-3xl/tight sm:text-4xl/tight lg:text-5xl/tight font-semibold mb-7">
-                    The best way to&nbsp;
+                  {/* Innovation Anchored: &nbsp; */}
                     <span className="relative z-0 after:bg-green-500/50 after:-z-10 after:absolute md:after:h-6 after:h-4 after:w-full after:bottom-0 after:end-0">
-                      showcase
+                    BlockPeer Tech
                     </span>
-                    &nbsp;your saas
+                    - Where Blockchain, AI, and Finance Converge
                   </h1>
                   <p className="sm:text-lg text-gray-500">
-                    Make your saas application stand out with high-quality
-                    landing page designed and developed by professional
+                  At BlockPeer Tech, we are a dynamic and forward-thinking software development company at the forefront of cutting-edge technologies.
                   </p>
                   <div className="flex gap-3  mt-16">
                     <EmailInput />
@@ -44,13 +43,13 @@ const Hero = () => {
                   </div>
                   <div className="flex flex-wrap items-center gap-5 mt-5">
                     <div className="flex items-center gap-2">
-                      {checkSvg}
-                      <p className="text-sm text-gray-700">Free 14-day Demo</p>
+                      {/* {checkSvg} */}
+                      {/* <p className="text-sm text-gray-700">Free 14-day Demo</p> */}
                     </div>
                     <div className="flex items-center gap-2">
-                      {checkSvg}
+                      {/* {checkSvg} */}
                       <p className="text-sm text-gray-700">
-                        No credit card needed
+                        {/* No credit card needed */}
                       </p>
                     </div>
                   </div>

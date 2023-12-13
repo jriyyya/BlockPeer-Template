@@ -17,20 +17,58 @@ import lenovo from '@/assets/images/brands/lenovo.svg'
 import 'swiper/css'
 import 'swiper/css/navigation'
 
+const fakeFeedbacks = [
+  {
+    name: "John D.",
+    description:
+      "BlockPeer Tech has truly set a new standard in blockchain and AI development. Their expertise in compliance solutions is unmatched. They've streamlined our processes, mitigated risks, and brought unparalleled efficiency to our operations. Highly recommend!",
+    image: avatar1
+  },
+  {
+    name: "Emily S.",
+    description:
+      "Incredible work by BlockPeer Tech! Their innovative approach to decentralized finance and AI solutions has transformed our business. The MLETR compliance tools are a game-changer, providing a seamless experience in navigating complex regulatory landscapes.",
+      image: avatar2
+  },
+  {
+    name: "David R.",
+    description:
+      "Kudos to the BlockPeer Tech team for their exceptional work! The AI solutions have revolutionized the way we operate, providing valuable insights and boosting our competitive edge. Their commitment to compliance ensures we're always on the right side of regulations.",
+      image: avatar3
+  },
+  {
+    name: "Sophia M.",
+    description:
+      "BlockPeer Tech delivers excellence! The blockchain solutions have added a layer of transparency and security to our financial transactions. The MLETR compliance tools are a lifesaver, making it easy to navigate the intricate world of regulations.",
+      image: avatar2
+  },
+  {
+    name: "Alex B.",
+    description:
+      "Impressed with BlockPeer Tech's commitment to innovation. The AI and blockchain solutions have brought efficiency and reliability to our operations. The MLETR compliance tools have made regulatory navigation a breeze. A trustworthy partner in technology.", 
+      image: avatar1
+
+  },
+];
+
+
 const CommonSlide1 = ({
   image,
   logo,
+  name,
+  description
 }: {
   image: StaticImageData
   logo: string
+  name: string
+  description: string
 }) => {
   return (
     <>
       <FaQuoteLeft className="text-gray-500 text-5xl" />
+      
       <p className="my-4">
-        It is one of the very convenient to use project manager ever! I have
-        tried many project management apps for my daily tasks, but this one is
-        far better than others. Simply loved it!
+        {description}
       </p>
       <div className="border-b border-gray-200 w-full my-7"></div>
 
@@ -44,11 +82,11 @@ const CommonSlide1 = ({
             className="h-10 w-10 rounded-full"
           />
           <div>
-            <h1 className="text-sm mb-1">Cersei Lannister</h1>
-            <p className="text-gray-500 text-xs">Senior Project Manager</p>
+            <h1 className="text-sm mb-1">{name}</h1>
+            {/* <p className="text-gray-500 text-xs">Senior Project Manager</p> */}
           </div>
         </div>
-        <div>
+        {/* <div>
           <Image
             alt="companyLogo"
             height={32}
@@ -56,11 +94,11 @@ const CommonSlide1 = ({
             src={logo}
             className="w-24"
           />
-        </div>
+        </div> */}
       </div>
-    </>
-  )
-}
+</>
+  )}
+
 const FeedBackSwiper = () => {
   return (
     <div className="col-span-3 lg:col-span-2 xl:col-span-3">
@@ -83,15 +121,11 @@ const FeedBackSwiper = () => {
             loop
             spaceBetween={30}
           >
-            <SwiperSlide className="p-10 border rounded-xl bg-white shadow">
-              <CommonSlide1 image={avatar1} logo={google}></CommonSlide1>
+            {fakeFeedbacks.map((feedback, index)=>(
+            <SwiperSlide className="p-10 border rounded-xl bg-white shadow" key={index}>
+              <CommonSlide1 image={feedback.image} logo={google} name={feedback.name} description={feedback.description} ></CommonSlide1>
             </SwiperSlide>
-            <SwiperSlide className="p-10 border rounded-xl bg-white shadow">
-              <CommonSlide1 image={avatar2} logo={amazon}></CommonSlide1>
-            </SwiperSlide>
-            <SwiperSlide className="p-10 border rounded-xl bg-white shadow">
-              <CommonSlide1 image={avatar3} logo={lenovo}></CommonSlide1>
-            </SwiperSlide>
+            ))}
           </Swiper>
         </div>
       </div>

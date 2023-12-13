@@ -42,14 +42,12 @@ const FeaturesAccordions = () => {
               </svg>
             </div>
             <h1 className="font-medium mb-4 mt-2">
-              Improve Employee Experience
+            Blockchain and Decentralized Finance (DeFi)
             </h1>
           </FUCollapse.Toggle>
           <FUCollapse.Menu className="w-full overflow-hidden duration-300 ps-16">
             <p className="text-gray-700 dark:text-gray-300">
-              Before we dive into why companies must invest in employee
-              experience (EX), it’s important to understand what this concept
-              entails.
+            At BlockPeer Tech, we revolutionize finance through blockchain expertise. From scalable solutions to robust smart contracts, we ensure transparency, security, and efficiency in financial transactions. 
             </p>
             <div className="mt-7 flex items-center">
               <Link
@@ -91,12 +89,11 @@ const FeaturesAccordions = () => {
                 </g>
               </svg>
             </div>
-            <h1 className="font-medium mb-4 mt-2">Hiring & Onboarding</h1>
+            <h1 className="font-medium mb-4 mt-2">AI & Finance</h1>
           </FUCollapse.Toggle>
           <FUCollapse.Menu className="w-full overflow-hidden duration-300 ps-16">
             <p className="text-gray-700 dark:text-gray-300">
-              Post your job, interview candidates and make offers, all on
-              Prompt. Start hiring today.
+            At BlockPeer Tech, we pioneer AI solutions for the financial sector. Our tailored AI solutions optimize processes, automate tasks, and provide insights, empowering financial institutions in a dynamic landscape. From predictive analytics to machine learning, we redefine financial services.
             </p>
             <div className="mt-7 flex items-center">
               <Link
@@ -162,12 +159,11 @@ const FeaturesAccordions = () => {
                 </g>
               </svg>
             </div>
-            <h1 className="font-medium mb-4 mt-2">People Data & Analytics</h1>
+            <h1 className="font-medium mb-4 mt-2">MLETR Compliance Trade Docs</h1>
           </FUCollapse.Toggle>
           <FUCollapse.Menu className="w-full overflow-hidden duration-300 ps-16">
             <p className="text-gray-700 dark:text-gray-300">
-              Finding committed employees is one of public and private
-              organizations’ top priorities.
+            At BlockPeer Tech, we prioritize compliance as the foundation of a robust financial ecosystem. Our expertise in MLETR compliance solutions streamlines processes, mitigates risks, and ensures your operations meet the highest standards, navigating complex regulatory landscapes with confidence.
             </p>
             <div className="mt-7 flex items-center">
               <Link

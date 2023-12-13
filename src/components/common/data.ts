@@ -25,7 +25,7 @@ type FooterLink = {
 
 const testimonials: Testimonials[] = [
   {
-    name: 'John Stark',
+    name: 'John SD',
     position: 'Engineering Director',
     description:
       'Have been working with CSS for over ten years and Tailwind just makes my life easier. It is still CSS and you use flex, grid, etc. but just quicker to write and maintain.',
@@ -54,28 +54,38 @@ const testimonials: Testimonials[] = [
   },
 ]
 
-const FAQContent: AccordionData[] = [
+const FAQContent: AccordionData[] =[
   {
-    title: ' Can I use this template for my client?',
+    title: "What sets BlockPeer Tech apart in the field of blockchain development?",
     description:
-      ' Yup, the marketplace license allows you to use this theme in any end products. For more information on licenses, please refere license terms on marketplace. ',
+      "BlockPeer Tech is distinguished by its commitment to innovation, expertise in scalable solutions, and a track record of delivering transparent and secure blockchain applications. Our focus on decentralized finance and smart contract development contributes to our industry leadership.",
   },
   {
-    title: ' Can this theme work with WordPress?',
+    title: "How does BlockPeer Tech ensure compliance in financial solutions?",
     description:
-      " No. This is a HTML template. It won't directly with WordPress, though you can convert this into WordPress compatible theme. ",
+      "Compliance is integral to our approach. BlockPeer Tech specializes in Meeting Legal, Ethical, and Regulatory (MLETR) requirements. Our compliance solutions for trade documents streamline processes, mitigate risks, and ensure adherence to the highest standards.",
   },
   {
-    title: ' How do I get help with the theme?',
+    title: "What AI services does BlockPeer Tech offer for the financial sector?",
     description:
-      ' Use our dedicated support email (support@coderthemes.com) to send your issues or feedback. We are here to help anytime. ',
+      "BlockPeer Tech provides a range of AI solutions tailored for the financial industry. From predictive analytics to machine learning models, our services optimize processes, automate tasks, and offer valuable insights to keep financial institutions competitive in a dynamic landscape.",
   },
   {
-    title: ' Will you regularly give updates of Prompt ?',
+    title: "Can BlockPeer Tech assist in building decentralized applications (DApps)?",
     description:
-      ' Yes, We will update the Prompt regularly. All the future updates would be available without any cost. ',
+      "Absolutely. BlockPeer Tech has extensive experience in developing decentralized applications (DApps). Whether you're starting from scratch or integrating blockchain into an existing infrastructure, our team has the expertise to drive success in the decentralized world.",
   },
-]
+  {
+    title: "How does BlockPeer Tech prioritize security in its solutions?",
+    description:
+      "Security is non-negotiable for BlockPeer Tech. Our solutions adhere to the highest industry standards, ensuring data integrity and robust security measures. We implement cutting-edge security protocols to safeguard financial transactions and sensitive information.",
+  },
+  {
+    title: "Can BlockPeer Tech's solutions be customized to suit specific business needs?",
+    description:
+      "Yes, indeed. Every project is unique, and at BlockPeer Tech, we pride ourselves on offering tailor-made solutions. Our team works closely with clients to understand their specific needs and goals, delivering customized solutions that align with their business objectives.",
+  },
+];
 
 const plans: PlanItem[] = [
   {
