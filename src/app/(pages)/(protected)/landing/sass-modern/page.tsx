@@ -1,12 +1,12 @@
 import Image from 'next/image'
 import { Metadata } from 'next'
-import Hero from './Hero'
+import Hero from '../../pages/career/Hero'
 import Features from '@/components/common/Features'
 import FeedBack from '@/components/common/FeedbackTestimonial'
 import FAQs from '@/components/common/FAQs'
 import Clients from '@/components/common/Clients'
 import Footer from '@/components/common/Footer'
-import WhyChooseUs from './WhyChooseUs'
+import WhyChooseUs from '../../../(public)/(home)/WhyChooseUs'
 
 import { whyChooseUsData } from './data';
 

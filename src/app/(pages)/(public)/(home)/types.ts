@@ -11,3 +11,9 @@ export type Feature = {
   icon?: ReactNode
   name: string
 }
+
+export type WhyChooseUsType = {
+  icon: ReactNode
+  title: string
+  description: string
+}

@@ -1,6 +1,6 @@
 // types
 import Image from 'next/image'
-import { Feature } from '../coworking/types'
+import { Feature } from '../../(protected)/landing/coworking/types'
 
 //image
 import whiteWave from '@/assets/images/shapes/white-wave.svg'
