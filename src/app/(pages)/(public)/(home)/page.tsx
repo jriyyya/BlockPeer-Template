@@ -45,7 +45,7 @@ import { whyChooseUsData } from '../../(protected)/landing/sass-modern/data'
 import whiteWave from '@/assets/images/shapes/white-wave.svg'
 
 export const metadata: Metadata = {
-  title: 'SassMorden Landing',
+  title: 'Blockpeer',
 }
 
 const Home = () => {

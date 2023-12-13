@@ -14,7 +14,7 @@ import { whyChooseUsData } from './data';
 import whiteWave from '@/assets/images/shapes/white-wave.svg'
 
 export const metadata: Metadata = {
-  title: 'SassMorden Landing',
+  title: 'Blockpeer',
 }
 
 const SassModern = () => {
