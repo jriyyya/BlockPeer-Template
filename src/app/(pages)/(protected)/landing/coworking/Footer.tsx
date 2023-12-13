@@ -9,6 +9,7 @@ import { footerLinks } from '@/components/common/data'
 
 //images
 import logoDark from '@/assets/images/logo-dark.png'
+import logo from '@/assets/logo.svg';
 import { cn } from '@/helpers/cn'
 
 const Footer = () => {
@@ -22,7 +23,7 @@ const Footer = () => {
                 width={128}
                 height={32}
                 alt="dark-logo"
-                src={logoDark}
+                src={logo}
                 className="w-32"
               />
             </Link>
@@ -30,9 +31,9 @@ const Footer = () => {
               <p className="text-base">
                 At vero eos et accusamus et iusto dignissimos ducimus odio.
               </p>
-              <p className="text-sm lg:mt-16 mt-7">
-                Prompt {new Date().getFullYear()} . All rights reserved.
-              </p>
+              <p className="my-5">
+              2023© BlockPeer-Tech. All rights reserved. 
+            </p>
             </div>
           </div>
           {Object.keys(footerLinks)

@@ -6,6 +6,7 @@ import { FormInput } from '@/components'
 
 //images
 import logoDark from '@/assets/images/logo-dark.png'
+import logo from '@/assets/logo.svg';
 
 const footerLinks = ['Changelog', 'FAQ', 'Press kit', 'Contact us']
 const Footer = () => {
@@ -46,15 +47,9 @@ const Footer = () => {
       <div className="border-b" />
       <div className="container">
         <div className="text-center mt-10">
-          <p className="text-gray-600 mb-7">
-            {new Date().getFullYear()}© Prompt. All rights reserved. Crafted by
-            <Link
-              href=""
-              className="text-gray-800 hover:text-primary transition-all"
-            >
-              Coderthemes
-            </Link>
-          </p>
+        <p className="my-5">
+              2023© BlockPeer-Tech. All rights reserved. 
+            </p>
           <ul className="flex flex-wrap items-center justify-center gap-10 mb-8">
             {(footerLinks || []).map((link, idx) => {
               return (
@@ -77,7 +72,7 @@ const Footer = () => {
               width={126}
               alt={'logo'}
               height={32}
-              src={logoDark}
+              src={logo}
               className="h-8 mx-auto"
             />
           </Link>

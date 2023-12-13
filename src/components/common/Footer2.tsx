@@ -4,6 +4,7 @@ import { footerLinks } from './data'
 
 //image
 import logoDark from '@/assets/images/logo-dark.png'
+import logo from '@/assets/logo.svg';
 
 const Footer2 = ({ socialIcon }: { socialIcon?: boolean }) => {
   return (
@@ -44,7 +45,7 @@ const Footer2 = ({ socialIcon }: { socialIcon?: boolean }) => {
                 alt="logo"
                 width={126}
                 height={32}
-                src={logoDark}
+                src={logo}
                 className="h-8"
               />
             </Link>
@@ -79,16 +80,9 @@ const Footer2 = ({ socialIcon }: { socialIcon?: boolean }) => {
             socialIcon ? 'grid sm:grid-cols-2' : 'flex justify-around'
           } text-center sm:text-start gap-6 py-5`}
         >
-          <p className="text-gray-500/80 text-sm">
-            {new Date().getFullYear()}© Prompt. All rights reserved. Crafted
-            by&nbsp;
-            <Link
-              href=""
-              className="text-gray-800 hover:text-primary transition-all"
-            >
-              Coderthemes
-            </Link>
-          </p>
+           <p className="my-5">
+              2023© BlockPeer-Tech. All rights reserved. 
+            </p>
           {socialIcon && (
             <div className="flex justify-center sm:justify-end gap-7">
               <div>

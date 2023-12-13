@@ -1,5 +1,5 @@
 import { Metadata } from 'next'
-import Footer3 from '@/components/common/Footer3'
+import Footer from '@/components/common/Footer'
 import Hero from './Hero'
 import ContactUs from './ContactUs'
 
@@ -14,7 +14,7 @@ const Contact = () => {
 
       <ContactUs />
 
-      <Footer3 />
+      <Footer />
     </>
   )
 }

@@ -6,6 +6,7 @@ import { footerLinks } from '@/components/common/data'
 
 //image
 import logoDark from '@/assets/images/logo-dark.png'
+import logo from '@/assets/logo.svg';
 
 const Footer = () => {
   return (
@@ -15,7 +16,7 @@ const Footer = () => {
           <div className="xl:col-span-1 col-span-4">
             <Link href="/">
               <Image
-                src={logoDark}
+                src={logo}
                 className="h-8"
                 height={32}
                 width={126}
@@ -138,13 +139,7 @@ const Footer = () => {
         <div className="border-b my-5" />
         <div className="text-center">
           <p className="text-gray-500/80 text-sm">
-            {new Date().getFullYear()}© Prompt. All rights reserved. Crafted by
-            <Link
-              href="/"
-              className="text-gray-800 hover:text-primary transition-all"
-            >
-              Coderthemes
-            </Link>
+            2023© BlockPeer. All rights reserve.
           </p>
         </div>
       </div>

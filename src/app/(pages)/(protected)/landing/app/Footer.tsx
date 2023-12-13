@@ -5,6 +5,7 @@ import Link from 'next/link'
 import google from '@/assets/images/buttons/google.png'
 import store from '@/assets/images/buttons/store.png'
 import logoDark from '@/assets/images/logo-dark.png'
+import logo from '@/assets/logo.svg';
 
 const footerLinks = ['About', 'Privacy', 'Terms', 'Developers', 'Support']
 
@@ -68,18 +69,8 @@ const Footer = () => {
             </ul>
 
             <p className="my-5">
-              {new Date().getFullYear()} © Prompt. All rights reserved. Crafted
-              by
+              2023© BlockPeer-Tech. All rights reserved. 
             </p>
-            <Link href="/">
-              <Image
-                alt="logo"
-                width={126}
-                height={32}
-                src={logoDark}
-                className="h-8 mx-auto"
-              />
-            </Link>
           </div>
         </div>
       </div>

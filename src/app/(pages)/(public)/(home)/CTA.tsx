@@ -49,18 +49,8 @@ const CTA = () => {
               </li>
             </ul>
             <p className="my-5">
-              {new Date().getFullYear()} © Prompt. All rights reserved. Crafted
-              by
+              2023© BlockPeer-Tech. All rights reserved. 
             </p>
-            <Link href="/">
-              <Image
-                width={126}
-                height={32}
-                alt="logoDark"
-                src={logoDark}
-                className="h-8 mx-auto"
-              />
-            </Link>
           </div>
         </div>
       </div>

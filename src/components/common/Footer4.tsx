@@ -37,9 +37,8 @@ const Footer4 = () => {
             </div>
           </div>
           <div className="shrink md:text-end mt-4 lg:mt-0">
-            <p className="text-sm mb-0">
-              {new Date().getFullYear()} © Prompt. All rights reserved. Crafted
-              by <Link href="https://coderthemes.com/">Coderthemes</Link>
+          <p className="my-5">
+              2023© BlockPeer-Tech. All rights reserved. 
             </p>
           </div>
         </div>
