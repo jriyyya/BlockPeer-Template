@@ -29,7 +29,6 @@
 // export default Home
 
 
-
 import Image from 'next/image'
 import { Metadata } from 'next'
 import Hero from './Hero'
@@ -74,7 +73,7 @@ const Home = () => {
         <div className="absolute bottom-0 inset-x-0 hidden sm:block">
           <Image
             width={1905}
-            height={150}
+            height={195}
             src={whiteWave}
             alt="svg"
             className="w-full scale-x-100 -scale-y-100"

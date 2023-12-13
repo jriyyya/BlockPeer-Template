@@ -202,10 +202,10 @@ Unlock a World of Powerful Features with BlockPeer Tech
 
           <button className="flex items-center justify-center mx-auto">
             <Link
-              href=""
+              href="/contact"
               className="inline-flex gap-2 items-center bg-primary text-white rounded-lg text-sm font-semibold hover:shadow-lg  hover:shadow-primary/30 focus:shadow-none focus:outline focus:outline-primary/40 px-6 py-3"
             >
-              Sign Up Now <FaArrowRight />
+              Contact Us Now <FaArrowRight />
             </Link>
           </button>
         </div>

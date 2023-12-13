@@ -1,4 +1,5 @@
 import coworking1 from '@/assets/images/hero/coworking1.jpg'
+import Link from 'next/link'
 
 const Hero = () => {
   return (
@@ -22,9 +23,9 @@ Welcome to  &nbsp;
       </section>
       <section>
         <span className="flex justify-center items-center relative z-20 translate-y-1/2">
-          <div className="bg-primary text-white rounded-md text-sm font-semibold flex-none shadow shadow-primary/20 cursor-pointer hover:shadow-lg hover:shadow-primary/30 focus:shadow-none focus:outline focus:outline-primary/30 uppercase px-16 py-3">
+          <Link href="/contact" className="bg-primary text-white rounded-md text-sm font-semibold flex-none shadow shadow-primary/20 cursor-pointer hover:shadow-lg hover:shadow-primary/30 focus:shadow-none focus:outline focus:outline-primary/30 uppercase px-16 py-3">
             Let&apos;s Have Talk
-          </div>
+          </Link>
         </span>
 
         {/*

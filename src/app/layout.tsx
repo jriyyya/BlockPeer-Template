@@ -69,7 +69,8 @@ export default function RootLayout({ children }: Readonly<{ children: ReactNode 
       </head>
       <body className={BeVietnamPro.className}>
         <div id="splash-screen">
-          <Image alt="Logo" width={355} height={83} src={appLogo} style={{ height: '10%', width: 'auto' }} />
+          Loading...
+          {/* <Image alt="Logo" width={355} height={83} src={appLogo} style={{ height: '10%', width: 'auto' }} /> */}
         </div>
         <NextTopLoader color='#2864e6' showSpinner={false} />
         <AppProviders>

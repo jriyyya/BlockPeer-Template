@@ -153,7 +153,7 @@ const Hero = () => {
                   <div className="flex gap-3  mt-16">
                     <EmailInput />
                     <button className="bg-primary text-white rounded-lg text-sm font-semibold flex-none hover:shadow-lg hover:shadow-primary/30 focus:shadow-none focus:outline focus:outline-primary/40 px-3">
-                      Sign Up
+                      Send
                     </button>
                   </div>
                   <div className="flex flex-wrap items-center gap-5 mt-5">
