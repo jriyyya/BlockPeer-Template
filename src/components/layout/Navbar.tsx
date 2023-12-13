@@ -7,10 +7,10 @@ import { OffcanvasLayout } from '@/components'
 import AppMenu from './Menu'
 import VerticalMenu from './VerticalMenu'
 import { useToggle } from '@/hooks'
-
 //images
 import logoDark from '@/assets/images/logo-dark.png'
 import { FaBars, FaXmark } from 'react-icons/fa6'
+import logo from '@/assets/logo.svg'
 
 const Navbar = () => {
   const [isOpenOffcanvas, toggleOffcanvas, _openOffcanvas, closeOffcanvas] =
@@ -44,7 +44,7 @@ const Navbar = () => {
         <div className="container">
           <nav className="flex items-center">
             <Link href="/">
-             BlockPeer-Tech
+             <Image width={50} height={50} src={logo} alt='logo'/>
             </Link>
             <div className="lg:block hidden ms-auto">
               <Link href="/about">About Us</Link>
